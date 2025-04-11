@@ -113,7 +113,7 @@ export default function FeedbackModal() {
             onClick={handleSubmit}
             disabled={!selectedRating}
           >
-            Submit Feedback
+            Submit
           </button>
         </div>
       </div>

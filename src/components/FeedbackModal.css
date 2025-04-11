@@ -174,9 +174,10 @@ body {
   border-color: #8B5CF6;
 }
 
+/* Updated selected state to use gray border instead of purple background */
 .rating-button.selected {
-  background-color: #6d28d9;
-  border-color: #6d28d9;
+  border: 2px solid #9CA3AF;  /* Thicker gray border */
+  background-color: transparent;  /* Remove background color */
 }
 
 .rating-labels {
